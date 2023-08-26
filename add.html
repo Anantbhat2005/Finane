@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(198, 198, 198);
+        }
+        header{
+            display: flex;
+        }
+        .blue{
+            display: flex;
+            width: 20vw;
+            height: 80px;
+            background-color: blue;
+            color: white;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            width: 80vw;
+            height: 80px;
+            background-color: #fff;
+        }
+        .right img{
+            margin-left: 15px;
+        }
+
+        .right .profile{
+            display: flex;
+            margin-left: 1000px;
+        }
+        .right .search img{
+            display: flex;
+            width: 35px;
+            margin-left: 25px;
+        }
+        .leftdown{
+            height: 89vh;
+            width: 20vw;
+            background-color: black;
+            opacity: 80%;
+        }
+        .leftdown .avtar{
+            position: absolute;
+            display: flex;
+            transform: -10Y;
+            background-color: black;
+            border: 2px solid white;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            margin: 40px;
+        }
+        .leftdown .text h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+    <div class="blue">
+        Money Track
+    </div>
+    <div class="right">
+        <span class="first"><img src="menu.png" alt="" width="35px" ></span>
+        <span class="search"><img src="search.png" alt="" ></span>
+        <span class="profile"><img src="HLogo.png" alt="" width="35px"></span>
+        <span class="first"><img src="menu.png" alt="" width="35px" ></span>
+    </div>
+    </header>
+    <div class="leftdown">
+        <div class="avtar">
+        </div>
+        <span class="text"><h1>Hello User</h1></span>
+    </div>
+    <div class="leftdowntxt">
+    </div>
+</body>
+</html>
